@@ -692,23 +692,22 @@ def log_response(response):
 if __name__ == '__main__':
     import os
     
-    # Get port from environment (Render sets this)
-    port = int(os.environ.get('PORT', 5000))
+    # CRITICAL: Get port from environment (Render sets this automatically)
+    port = int(os.environ.get('PORT', 10000))
     
     print("\n" + "="*60)
     print("🤖 Starting Intelligent Chatbot Server...")
     print("="*60)
     print(f"\n🌐 Port: {port}")
+    print(f"🌐 Binding to: 0.0.0.0:{port}")
     print("✨ Architecture:")
     print("  • ResponseGenerator: Intent detection, formatting, suggestions")
     print("  • IntelligentResponseGenerator: Pattern learning inside RAG")
     print("  • MongoDB + JSON: Dual storage for persistence")
-    print("  • Both work together for best results!")
-    print(f"\nServer will be available at: http://0.0.0.0:{port}")
     print("\n📡 Ready to chat!")
     print("="*60 + "\n")
     
-    # Run Flask app
+    # Run Flask app - MUST bind to 0.0.0.0 and PORT
     app.run(
         host='0.0.0.0',
         port=port,
