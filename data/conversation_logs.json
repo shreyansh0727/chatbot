@@ -1,0 +1,132 @@
+[
+  {
+    "timestamp": "2025-12-31T14:34:34.642281",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "hi",
+    "assistant": "Hi! What's on your mind?",
+    "metadata": {
+      "source": "fallback",
+      "confidence": 0.0,
+      "approach": "hybrid",
+      "intent": "greeting",
+      "context_used": ""
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:34:44.217148",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "How's everything going?",
+    "assistant": "Let me think... actually, I'm not 100% sure about that.",
+    "metadata": {
+      "source": "fallback",
+      "confidence": 0.0,
+      "approach": "hybrid",
+      "intent": "question_how",
+      "context_used": "Conversations: 1 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:34:55.924987",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "Any challenges you're facing?",
+    "assistant": "As invitations to improve.",
+    "metadata": {
+      "source": "nlp",
+      "confidence": 0.7192759993446378,
+      "approach": "hybrid",
+      "intent": "question_general",
+      "context_used": "Conversations: 2 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:35:06.886198",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "What are your next steps?",
+    "assistant": "I don't have enough context to answer that well.",
+    "metadata": {
+      "source": "fallback",
+      "confidence": 0.0,
+      "approach": "hybrid",
+      "intent": "question_what",
+      "context_used": "Conversations: 3 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:35:11.981609",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "Any challenges you're facing?",
+    "assistant": "As invitations to improve.",
+    "metadata": {
+      "source": "nlp",
+      "confidence": 0.7192759993446378,
+      "approach": "hybrid",
+      "intent": "question_general",
+      "context_used": "Conversations: 4 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:36:42.787297",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "hello",
+    "assistant": "Hi there! How's it going?",
+    "metadata": {
+      "source": "fallback",
+      "confidence": 0.0,
+      "approach": "hybrid",
+      "intent": "greeting",
+      "context_used": "Conversations: 5 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:36:48.271508",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "How's everything going?",
+    "assistant": "Hmm, I don't have a clear answer for that one.",
+    "metadata": {
+      "source": "fallback",
+      "confidence": 0.0,
+      "approach": "hybrid",
+      "intent": "question_how",
+      "context_used": "Conversations: 6 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:36:56.427068",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "How's everything going?",
+    "assistant": "Good question! But I'd need more details to answer properly.",
+    "metadata": {
+      "source": "fallback",
+      "confidence": 0.0,
+      "approach": "hybrid",
+      "intent": "question_how",
+      "context_used": "Conversations: 7 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:37:11.313702",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "kya kar rhe ho bhai",
+    "assistant": "Kuch nahi , rest kar rhe hai.",
+    "metadata": {
+      "source": "nlp",
+      "confidence": 0.5092718177570745,
+      "approach": "hybrid",
+      "intent": "statement",
+      "context_used": "Conversations: 8 | Topics: greeting"
+    }
+  },
+  {
+    "timestamp": "2025-12-31T14:37:18.163833",
+    "user_id": "user_1767188552205_r50yhmai",
+    "user": "accha",
+    "assistant": "How much i am under the water.",
+    "metadata": {
+      "source": "nlp",
+      "confidence": 1.0,
+      "approach": "hybrid",
+      "intent": "statement",
+      "context_used": "Conversations: 9 | Interests: ai | Topics: greeting"
+    }
+  }
+]
